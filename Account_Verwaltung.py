@@ -21,14 +21,11 @@ accounts = {
     "l": "\n Eintrag1: info1 id 0 \n Eintrag2: info2 id 1 \n Eintrag3: info3 id 2 \n Eintrag4: info4 id 3 \n Eintrag5: info5 id 4 \n Eintrag6: info6 id 5 \n Eintrag7: info7 id 6 \n Eintrag8: info8 id 7"
 }
 
-if Password:
-    chooseaccount = input("\n nach account suchen oder L eingeben für ganze Liste ").lower()
-
 
     #EINGABEN
 
 if Password:
-    chooseaccount = input("\nNach Account suchen oder 'l' eingeben für ganze Liste: ").lower()
+    chooseaccount = input("\nNach Account suchen oder 'L' eingeben für ganze Liste: ").lower()
 
     if chooseaccount in accounts:
         print(accounts[chooseaccount])
